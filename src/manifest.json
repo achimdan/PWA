@@ -1,0 +1,26 @@
+{
+    "short_name": "Magnifico",
+    "name": "Angular5 + Magnifico Firebase Starter App",
+    "start_url": "/",
+    "theme_color": "#ff0000",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/assets/favicons/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/android-chrome-192x192.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/android-chrome-256x256.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ]
+}

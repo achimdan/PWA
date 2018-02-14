@@ -1,1 +1,48 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Pwa</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="styles.9c0ad738f18adc3d19ed.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.0bedabfe26f45b1e58ab.bundle.js"></script><script type="text/javascript" src="polyfills.61df7d7ec492d95bb0b2.bundle.js"></script><script type="text/javascript" src="main.501f2372612b6e6f6bb7.bundle.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pwa</title>
+  <base href="/">
+  <link rel="icon"
+        type="image/x-icon"
+        href="favicon.ico">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+  <meta name="mobile-web-app-capable"
+        content="yes">
+  <meta name="apple-mobile-web-app-capable"
+        content="yes">
+  <meta name="msapplication-starturl"
+        content="/">
+  <meta name="theme-color"
+        content="#ff0000">
+  <link rel="manifest"
+        href="/manifest.json">
+  <link href="styles.9c0ad738f18adc3d19ed.bundle.css"
+        rel="stylesheet" />
+</head>
+
+<body>
+  <app-root></app-root>
+  <script>if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then((registration) => {
+          console.log('SW registered');
+        })
+        .catch((err) => {
+          console.log('SW error', err);
+        });
+    }</script>
+  <script type="text/javascript"
+          src="inline.84d2462bdc1efebbbf95.bundle.js"></script>
+  <script type="text/javascript"
+          src="polyfills.61df7d7ec492d95bb0b2.bundle.js"></script>
+  <script type="text/javascript"
+          src="main.eda81d6c9acc6189a684.bundle.js"></script>
+</body>
+
+</html>

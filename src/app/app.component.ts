@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  array = [
+    {name: 'luke'},
+    {name: 'vader'},
+    {name: 'han solo'},
+    {name: 'leia'},
+    {name: 'obi'},
+  ];
 }
