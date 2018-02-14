@@ -6,9 +6,6 @@ import { Component } from '@angular/core';
 	styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-<<<<<<< HEAD
-	title = 'the cool app';
-=======
   title = 'app';
   array = [
     {name: 'luke'},
@@ -17,5 +14,4 @@ export class AppComponent {
     {name: 'leia'},
     {name: 'obi'},
   ];
->>>>>>> a3f78dfe5769570bd9dfaeb7ba60fb21c80c5f4f
 }
